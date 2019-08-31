@@ -17,5 +17,5 @@ class GridCoordinatesTest {
         assertEquals(gridCoordinates.getLeft(), left);
         assertEquals(gridCoordinates.getTop(), top);
         assertEquals(gridCoordinates.getBottom(), bottom);
-    }ß
+    }
 }
