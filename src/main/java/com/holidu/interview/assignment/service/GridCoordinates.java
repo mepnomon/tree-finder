@@ -1,5 +1,7 @@
 package com.holidu.interview.assignment.service;
 
+import java.util.Objects;
+
 public class GridCoordinates {
 
     private int bottom, top, left, right;
@@ -29,7 +31,18 @@ public class GridCoordinates {
     }
 
     @Override
-    public String toString(){
-       return "Bottom" +  this.bottom + "Top:" + this.top + "Left" + this.left + "Right" + this.right;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        GridCoordinates that = (GridCoordinates) o;
+        return bottom == that.bottom &&
+                top == that.top &&
+                left == that.left &&
+                right == that.right;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(bottom, top, left, right);
     }
 }

@@ -23,7 +23,7 @@ class TreeFinderTest {
         GridCoordinates expectedResult = new GridCoordinates(-5, 5, -5, 5);
         GridCoordinates actualResult = treeFinder.getTreeGrid(x,y,radius);
 
-        assertEquals(expectedResult.toString().hashCode(), actualResult.toString().hashCode());
+        assertEquals(expectedResult.hashCode(), actualResult.hashCode());
     }
 
     @Test
@@ -34,7 +34,7 @@ class TreeFinderTest {
         GridCoordinates expectedResult = new GridCoordinates(0, 10, 0, 10);
         GridCoordinates actualResult = treeFinder.getTreeGrid(x,y,radius);
 
-        assertEquals(expectedResult.toString().hashCode(), actualResult.toString().hashCode());
+        assertEquals(expectedResult.hashCode(), actualResult.hashCode());
     }
 
     @Test
@@ -45,7 +45,7 @@ class TreeFinderTest {
         GridCoordinates expectedResult = new GridCoordinates(-2, 8, 0, 10);
         GridCoordinates actualResult = treeFinder.getTreeGrid(x,y,radius);
 
-        assertEquals(expectedResult.toString().hashCode(), actualResult.toString().hashCode());
+        assertEquals(expectedResult.hashCode(), actualResult.hashCode());
     }
 
     @Test
@@ -56,7 +56,7 @@ class TreeFinderTest {
         GridCoordinates expectedResult = new GridCoordinates(2, 3, 3, 3);
         GridCoordinates actualResult = treeFinder.getTreeGrid(x,y,radius);
 
-        assertNotEquals(expectedResult.toString().hashCode(), actualResult.toString().hashCode());
+        assertNotEquals(expectedResult.hashCode(), actualResult.hashCode());
     }
 
 
