@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2746c29-ae05-4f93-ab57-0e21247b3864" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/GridCoordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/GridCoordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/GridCoordinatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/GridCoordinatesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/TreeFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/TreeFinderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/GridCoordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/GridCoordinates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/GridCoordinatesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/GridCoordinatesTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/TreeFinderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/TreeFinderTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -156,9 +152,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TreeFinderTest" />
+        <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_same_offset_0_passes_if_values_match" />
         <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_same_offset_5_passes_if_values_match" />
         <item itemvalue="JUnit.GridCoordinatesTest.test_getters_passes_if_values_match" />
-        <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_same_offset_0_passes_if_values_match" />
         <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_different_offset_5_3_passes_if_values_match" />
       </list>
     </recent_temporary>
