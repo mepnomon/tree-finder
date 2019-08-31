@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2746c29-ae05-4f93-ab57-0e21247b3864" name="Default Changelist" comment="" />
+    <list default="true" id="d2746c29-ae05-4f93-ab57-0e21247b3864" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/TreeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/TreeFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/TreeFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/TreeFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/TreeFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/TreeFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/TreeFinderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/TreeFinderTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +26,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -36,7 +47,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1QA9wFZDYfh9exRixQ9IPBFgikr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
@@ -60,16 +73,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeFinderTest.test_get_tree_grid_passes_if_values_matched">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.App" />
+  <component name="RunManager" selected="JUnit.TreeFinderTest">
+    <configuration name="TreeFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview.assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.holidu.interview.assignment.*" />
+          <option name="PATTERN" value="com.holidu.interview.assignment.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
+      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.TreeFinderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.holidu.interview.assignment.service in interview.assignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeFinderTest.test_get_tree_grid_with_different_offset_5_3_passes_if_values_matched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview.assignment" />
       <extension name="coverage">
         <pattern>
@@ -99,16 +114,52 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.TreeFinderTest" />
+      <option name="METHOD_NAME" value="test_get_tree_grid_with_different_offset_5_3_passes_if_values_matched" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeFinderTest.test_get_tree_grid_with_same_offset_0_passes_if_values_matched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview.assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.holidu.interview.assignment.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
+      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.TreeFinderTest" />
+      <option name="METHOD_NAME" value="test_get_tree_grid_with_same_offset_0_passes_if_values_matched" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeFinderTest.test_get_tree_grid_with_same_offset_5_passes_if_values_matched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview.assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.holidu.interview.assignment.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
+      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.TreeFinderTest" />
+      <option name="METHOD_NAME" value="test_get_tree_grid_with_same_offset_5_passes_if_values_matched" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeFinderTest" />
+        <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_different_offset_5_3_passes_if_values_matched" />
+        <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_same_offset_5_passes_if_values_matched" />
+        <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_same_offset_0_passes_if_values_matched" />
         <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_passes_if_values_matched" />
-        <item itemvalue="JUnit.com.holidu.interview.assignment.service in interview.assignment" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -131,5 +182,16 @@
       <updated>1567202769559</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
