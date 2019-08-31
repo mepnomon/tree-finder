@@ -11,5 +11,4 @@ public class TreeFinder {
         int right = x + radius;
         return new GridCoordinates(bottom, top, left, right);
     }
-
 }

@@ -27,4 +27,9 @@ public class GridCoordinates {
     public int getRight() {
         return right;
     }
+
+    @Override
+    public String toString(){
+       return "Bottom" +  this.bottom + "Top:" + this.top + "Left" + this.left + "Right" + this.right;
+    }
 }

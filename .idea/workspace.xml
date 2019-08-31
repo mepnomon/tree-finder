@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2746c29-ae05-4f93-ab57-0e21247b3864" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/GridCoordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/GridCoordinates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/TreeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/TreeFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/TreeFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/TreeFinderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/TreeFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/TreeFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/GridCoordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/GridCoordinates.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/TreeFinderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/TreeFinderTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeFinderTest.test_get_tree_grid_passes_if_values_matched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeFinderTest.test_get_tree_grid_with_different_offset_5_3_passes_if_values_do_not_match" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview.assignment" />
       <extension name="coverage">
         <pattern>
@@ -99,7 +98,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
       <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.TreeFinderTest" />
-      <option name="METHOD_NAME" value="test_get_tree_grid_passes_if_values_matched" />
+      <option name="METHOD_NAME" value="test_get_tree_grid_with_different_offset_5_3_passes_if_values_do_not_match" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeFinderTest.test_get_tree_grid_with_different_offset_5_3_passes_if_values_match" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview.assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.holidu.interview.assignment.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
+      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.TreeFinderTest" />
+      <option name="METHOD_NAME" value="test_get_tree_grid_with_different_offset_5_3_passes_if_values_match" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeFinderTest.test_get_tree_grid_with_same_offset_0_passes_if_values_matched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeFinderTest.test_get_tree_grid_with_same_offset_0_passes_if_values_match" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview.assignment" />
       <extension name="coverage">
         <pattern>
@@ -131,23 +146,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
       <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.TreeFinderTest" />
-      <option name="METHOD_NAME" value="test_get_tree_grid_with_same_offset_0_passes_if_values_matched" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeFinderTest.test_get_tree_grid_with_same_offset_5_passes_if_values_matched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview.assignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.holidu.interview.assignment.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
-      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.TreeFinderTest" />
-      <option name="METHOD_NAME" value="test_get_tree_grid_with_same_offset_5_passes_if_values_matched" />
+      <option name="METHOD_NAME" value="test_get_tree_grid_with_same_offset_0_passes_if_values_match" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TreeFinderTest" />
+        <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_same_offset_0_passes_if_values_match" />
+        <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_different_offset_5_3_passes_if_values_match" />
+        <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_different_offset_5_3_passes_if_values_do_not_match" />
         <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_different_offset_5_3_passes_if_values_matched" />
-        <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_same_offset_5_passes_if_values_matched" />
-        <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_with_same_offset_0_passes_if_values_matched" />
-        <item itemvalue="JUnit.TreeFinderTest.test_get_tree_grid_passes_if_values_matched" />
       </list>
     </recent_temporary>
   </component>
@@ -193,5 +192,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/interview_assignment$TreeFinderTest_test_get_tree_grid_with_different_offset_5_3_passes_if_values_match.ic" NAME="TreeFinderTest.test_get_tree_grid_with_different_offset_5_3_passes_if_values_match Coverage Results" MODIFIED="1567290080700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.holidu.interview.assignment.service.*</FILTER>
+    </SUITE>
   </component>
 </project>
