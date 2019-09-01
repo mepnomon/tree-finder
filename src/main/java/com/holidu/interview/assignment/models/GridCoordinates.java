@@ -1,4 +1,4 @@
-package com.holidu.interview.assignment.service;
+package com.holidu.interview.assignment.models;
 
 import java.util.Objects;
 
@@ -39,6 +39,16 @@ public class GridCoordinates {
                 top == that.top &&
                 left == that.left &&
                 right == that.right;
+    }
+
+    @Override
+    public String toString() {
+        return "GridCoordinates{" +
+                "bottom=" + bottom +
+                ", top=" + top +
+                ", left=" + left +
+                ", right=" + right +
+                '}';
     }
 
     @Override

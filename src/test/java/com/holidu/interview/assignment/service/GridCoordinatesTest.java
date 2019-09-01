@@ -1,5 +1,6 @@
 package com.holidu.interview.assignment.service;
 
+import com.holidu.interview.assignment.models.GridCoordinates;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

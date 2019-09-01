@@ -1,12 +1,16 @@
 package com.holidu.interview.assignment.service;
 
+import com.holidu.interview.assignment.models.GridCoordinates;
 import com.holidu.interview.assignment.util.UnitConverter;
 
 public class TreeFinder {
 
+    UnitConverter unitConverter;
 
+    public TreeFinder(UnitConverter unitConverter) {
+        this.unitConverter = unitConverter;
+    }
 
-    UnitConverter unitConverter = new UnitConverter();
 
     public GridCoordinates getTreeGrid(double x, double y, double radiusInMeters) {
 
