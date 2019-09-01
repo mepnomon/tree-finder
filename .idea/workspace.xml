@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d2746c29-ae05-4f93-ab57-0e21247b3864" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/GridCoordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/GridCoordinates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/TreeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/TreeFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/TreeFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/TreeFinderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/GridCoordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/GridCoordinates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/util/UnitConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/util/UnitConverterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/TreeFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/TreeFinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/GridCoordinatesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/GridCoordinatesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/TreeFinderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/TreeFinderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/util/UnitConverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/util/UnitConverterTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +72,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UnitConverterTest">
+  <component name="RunManager" selected="Application.TreeSearchController">
+    <configuration name="TreeSearchController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.controllers.TreeSearchController" />
+      <module name="interview.assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.holidu.interview.assignment.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TreeFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview.assignment" />
       <extension name="coverage">
@@ -123,22 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeFinderTest.test_convert_meters_to_feet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview.assignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.holidu.interview.assignment.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
-      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.TreeFinderTest" />
-      <option name="METHOD_NAME" value="test_convert_meters_to_feet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UnitConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview.assignment" />
       <extension name="coverage">
@@ -156,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UnitConverterTest" />
+        <item itemvalue="Application.TreeSearchController" />
         <item itemvalue="JUnit.TreeFinderTest" />
+        <item itemvalue="JUnit.UnitConverterTest" />
         <item itemvalue="JUnit.TreeFinderTest.test_convert_decimal_meters_to_feet" />
         <item itemvalue="JUnit.TreeFinderTest.test_convert_2_meters_to_feet" />
-        <item itemvalue="JUnit.TreeFinderTest.test_convert_meters_to_feet" />
       </list>
     </recent_temporary>
   </component>
