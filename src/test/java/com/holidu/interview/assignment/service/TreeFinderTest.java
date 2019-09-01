@@ -18,7 +18,7 @@ class TreeFinderTest {
     @Test
     public void test_get_tree_grid_with_same_offset_0_passes_if_values_match() {
 
-        int x = 0, y = 0, radius = 5;
+        double x = 0, y = 0, radius = 5;
 
         GridCoordinates expectedResult = new GridCoordinates(-5, 5, -5, 5);
         GridCoordinates actualResult = treeFinder.getTreeGrid(x,y,radius);
@@ -29,7 +29,7 @@ class TreeFinderTest {
     @Test
     public void test_get_tree_grid_with_same_offset_5_passes_if_values_match() {
 
-        int x = 5, y = 5, radius = 5;
+        double x = 5, y = 5, radius = 5;
 
         GridCoordinates expectedResult = new GridCoordinates(0, 10, 0, 10);
         GridCoordinates actualResult = treeFinder.getTreeGrid(x,y,radius);
@@ -40,7 +40,7 @@ class TreeFinderTest {
     @Test
     public void test_get_tree_grid_with_different_offset_5_3_passes_if_values_match() {
 
-        int x = 5, y = 3, radius = 5;
+        double x = 5, y = 3, radius = 5;
 
         GridCoordinates expectedResult = new GridCoordinates(-2, 8, 0, 10);
         GridCoordinates actualResult = treeFinder.getTreeGrid(x,y,radius);
@@ -51,13 +51,11 @@ class TreeFinderTest {
     @Test
     public void test_get_tree_grid_with_different_offset_5_3_passes_if_values_do_not_match() {
 
-        int x = 5, y = 3, radius = 5;
+        double x = 5, y = 3, radius = 5;
 
         GridCoordinates expectedResult = new GridCoordinates(2, 3, 3, 3);
         GridCoordinates actualResult = treeFinder.getTreeGrid(x,y,radius);
 
         assertNotEquals(expectedResult, actualResult);
     }
-
-
 }

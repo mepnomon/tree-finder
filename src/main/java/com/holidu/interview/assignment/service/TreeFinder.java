@@ -3,12 +3,15 @@ package com.holidu.interview.assignment.service;
 public class TreeFinder {
 
 
-    public GridCoordinates getTreeGrid(int x, int y, int radius) {
+    public GridCoordinates getTreeGrid(double x, double y, double radiusInMeters) {
 
-        int bottom = y - radius;
-        int top = y + radius;
-        int left = x - radius;
-        int right = x + radius;
+
+        // THIS CALCULATION IS CRAP
+
+        double bottom = y - radiusInMeters;
+        double top = y + radiusInMeters;
+        double left = x - radiusInMeters;
+        double right = x + radiusInMeters;
         return new GridCoordinates(bottom, top, left, right);
     }
 }

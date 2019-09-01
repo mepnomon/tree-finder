@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class GridCoordinates {
 
-    private int bottom, top, left, right;
+    private double bottom, top, left, right;
 
-    public GridCoordinates(int bottom, int top, int left, int right) {
+    public GridCoordinates(double bottom, double top, double left, double right) {
         this.bottom = bottom;
         this.top = top;
         this.left = left;
@@ -14,19 +14,19 @@ public class GridCoordinates {
     }
 
 
-    public int getBottom() {
+    public double getBottom() {
         return bottom;
     }
 
-    public int getTop() {
+    public double getTop() {
         return top;
     }
 
-    public int getLeft() {
+    public double getLeft() {
         return left;
     }
 
-    public int getRight() {
+    public double getRight() {
         return right;
     }
 
