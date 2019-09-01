@@ -32,7 +32,7 @@ public class TreeSearchController {
 
         JSONObject treeJson = new JSONObject();
         commonNames.entrySet().forEach(tree -> treeJson.put(tree.getKey(), tree.getValue()));
-        
+
         return ResponseEntity.status(HttpStatus.OK).body(treeJson.toString());
     }
 }

@@ -27,7 +27,9 @@ public class TreeSearchService {
 
         Map<String, Integer> commonNames = new HashMap<>();
         for(int i = 0; i < jsonArray.length(); i++) {
+
             JSONObject o = jsonArray.getJSONObject(i);
+
             if(o.has("spc_common")){
                 o.getString("spc_common");
                 String treeName = o.getString("spc_common");
@@ -38,8 +40,7 @@ public class TreeSearchService {
                     commonNames.put(treeName,count+1);
                 }
             }
-        } // end of loop
-
+        }
         return commonNames;
     }
 

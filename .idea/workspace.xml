@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2746c29-ae05-4f93-ab57-0e21247b3864" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/GridCoordinatesFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/controller/TreeSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/controller/TreeSearchController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/models/SearchParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/models/SearchParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/TreeFinder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/TreeSearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/TreeSearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/models/SearchParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/models/SearchParametersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/TreeFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/GridCoordinatesFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/TreeFinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/TreeSearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/TreeSearchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/util/UnitConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/models/SearchParametersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/models/SearchParametersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/TreeFinderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/util/UnitConverterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/controller/TreeSearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/controller/TreeSearchController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/models/SearchParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/models/SearchParameters.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +18,9 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="280" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
@@ -33,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -63,9 +58,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.holidu.interview.assignment.service" />
       <recent name="com.holidu.interview.assignment.models" />
       <recent name="com.holidu.interview.assignment.util" />
-      <recent name="com.holidu.interview.assignment.service" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.holidu.interview.assignment.service" />
@@ -86,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.All in interview.assignment">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.App" />
       <module name="interview.assignment" />
@@ -113,60 +108,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in interview.assignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview.assignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.holidu.interview.assignment.models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.models" />
-      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.models.SearchParametersTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchParametersTest.test_convert_2_meters_to_feet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeSearchServiceTest.count_occurrence_of_common_species_name_passes_if_results_match" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview.assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.holidu.interview.assignment.models.*" />
+          <option name="PATTERN" value="com.holidu.interview.assignment.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.models" />
-      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.models.SearchParametersTest" />
-      <option name="METHOD_NAME" value="test_convert_2_meters_to_feet" />
+      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
+      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.TreeSearchServiceTest" />
+      <option name="METHOD_NAME" value="count_occurrence_of_common_species_name_passes_if_results_match" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchParametersTest.test_convert_decimal_meters_to_feet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.holidu.interview.assignment in interview.assignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview.assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.holidu.interview.assignment.models.*" />
+          <option name="PATTERN" value="com.holidu.interview.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.models" />
-      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.models.SearchParametersTest" />
-      <option name="METHOD_NAME" value="test_convert_decimal_meters_to_feet" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in interview.assignment" />
+        <item itemvalue="JUnit.TreeSearchServiceTest.count_occurrence_of_common_species_name_passes_if_results_match" />
+        <item itemvalue="JUnit.com.holidu.interview.assignment in interview.assignment" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.TreeSearchService" />
-        <item itemvalue="JUnit.SearchParametersTest" />
-        <item itemvalue="JUnit.SearchParametersTest.test_convert_decimal_meters_to_feet" />
-        <item itemvalue="JUnit.SearchParametersTest.test_convert_2_meters_to_feet" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +189,30 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/models/GridCoordinates.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/models/GridCoordinates.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/interview_assignment$App.ic" NAME="App Coverage Results" MODIFIED="1567375393476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.holidu.interview.assignment.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/interview_assignment$All_in_interview_assignment.ic" NAME="All in interview.assignment Coverage Results" MODIFIED="1567377515927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/interview_assignment$com_holidu_interview_assignment_in_interview_assignment.ic" NAME="com.holidu.interview.assignment in interview.assignment Coverage Results" MODIFIED="1567375830120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.holidu.interview.assignment.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/interview_assignment$TreeFinderTest_test_get_tree_grid_with_different_offset_5_3_passes_if_values_match.ic" NAME="TreeFinderTest.test_get_tree_grid_with_different_offset_5_3_passes_if_values_match Coverage Results" MODIFIED="1567290080700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.holidu.interview.assignment.service.*</FILTER>
     </SUITE>
