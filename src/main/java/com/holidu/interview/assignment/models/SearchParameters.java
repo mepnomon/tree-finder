@@ -14,7 +14,7 @@ public class SearchParameters {
         this.radiusInMeters = radiusInMeters;
     }
 
-
+    // be only 4 digits after .
     public double getX() {
         return x;
     }

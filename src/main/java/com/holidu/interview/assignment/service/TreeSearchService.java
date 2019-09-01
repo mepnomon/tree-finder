@@ -1,35 +1,46 @@
 package com.holidu.interview.assignment.service;
 
-import org.springframework.web.client.RestTemplate;
+import com.holidu.interview.assignment.models.SearchParameters;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
+import java.util.Map;
+
+@Service
 public class TreeSearchService {
-    // data clumps
-    public static void main(String[] args) {
-        TreeSearchService treeSearchService = new TreeSearchService();
-        //treeSearchService.getTrees();
+
+    private TreeAPIRequest treeAPIRequest;
+
+
+    public TreeSearchService(TreeAPIRequest treeAPIRequest) {
+        this.treeAPIRequest = treeAPIRequest;
     }
 
-    private String baseUrl = "https://data.cityofnewyork.us/resource/uvpi-gqnh.json?";
 
-    public void getTrees(double x, double y, double radiusInMeters) {
+    public Map<String, Integer> getTrees(SearchParameters parameters) {
 
-        RestTemplate restTemplate = new RestTemplate();
-        //restTemplate.
-        String result = restTemplate.getForObject(baseUrl, String.class);
+        String result = treeAPIRequest.makeRequest(parameters);
+        JSONArray jsonArray = new JSONArray(result);
 
-        System.out.println(result);
+
+        Map<String, Integer> commonNames = new HashMap<>();
+        for(int i = 0; i < jsonArray.length(); i++) {
+            JSONObject o = jsonArray.getJSONObject(i);
+            if(o.has("spc_common")){
+                o.getString("spc_common");
+                String treeName = o.getString("spc_common");
+                if(!commonNames.containsKey(treeName)) {
+                    commonNames.put(treeName,1);
+                } else {
+                    Integer count = commonNames.get(treeName);
+                    commonNames.put(treeName,count+1);
+                }
+            }
+        } // end of loop
+
+        return commonNames;
     }
 
-    private String buildSearchTreeQuery() {
-    //$select=spc_common&$where=x_sp%20between%20'96'%20and%20'1000000'%20and%20y_sp%20between%20'120000'%20and%20'270000'
-       // String query = "$select=spc_common&$where=x_sp%20between%20" +
-
-
-
-        return null;
-    }
-
-    private static void getTreesForOffset(double x, double y, double raidusInMeters) {
-        String requestUri = "";
-    }
 }
