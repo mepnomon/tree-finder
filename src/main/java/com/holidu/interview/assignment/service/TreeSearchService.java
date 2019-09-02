@@ -13,7 +13,8 @@ public class TreeSearchService {
 
     private TreeAPIRequest treeAPIRequest;
     private CircleTester circleTester;
-    //Gr
+
+
     public TreeSearchService(TreeAPIRequest treeAPIRequest, CircleTester circleTester) {
         this.treeAPIRequest = treeAPIRequest;
         this.circleTester = circleTester;
