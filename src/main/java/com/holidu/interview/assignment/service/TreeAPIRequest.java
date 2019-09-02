@@ -29,7 +29,7 @@ public class TreeAPIRequest {
     String buildSearchTreeQuery(SearchParameters parameters) {
 
         GridCoordinates coords = gridCoordinatesFactory.build(parameters.getX(), parameters.getY(), parameters.getRadiusInFeet());
-        String query = "$select=spc_common&$where=x_sp between " + coords.getLeft() + " and " + coords.getRight()
+        String query = "$select=spc_common,x_sp,y_sp&$where=x_sp between " + coords.getLeft() + " and " + coords.getRight()
                 + " and y_sp between " + coords.getBottom() + " and " + coords.getTop();
         return query;
     }
