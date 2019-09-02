@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class GridCoordinatesFactory {
 
-
     public GridCoordinates build(double x, double y, double radius) {
 
         double bottom = y - radius;

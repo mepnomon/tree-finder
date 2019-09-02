@@ -8,11 +8,13 @@ public class SearchParameters {
 
     private final static double METERS_TO_US_FEET = 3.28084;
 
+
     public SearchParameters(double x, double y, double radiusInMeters) {
         this.x = x;
         this.y = y;
         this.radiusInMeters = radiusInMeters;
     }
+
 
     public double getX() {
         return x;

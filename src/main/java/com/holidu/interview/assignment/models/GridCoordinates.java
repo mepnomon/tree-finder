@@ -6,6 +6,7 @@ public class GridCoordinates {
 
     private double bottom, top, left, right;
 
+
     public GridCoordinates(double bottom, double top, double left, double right) {
         this.bottom = bottom;
         this.top = top;
