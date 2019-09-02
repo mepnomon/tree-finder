@@ -31,23 +31,35 @@ public class TreeSearchService {
 
             JSONObject obj = jsonArray.getJSONObject(i);
 
-            if(obj.has("x_sp") && obj.has("y_sp")) {
-                double x = obj.getDouble("x_sp");
-                double y = obj.getDouble("y_sp");
+            if(checkIfInsideCircle(obj, parameters)) {
 
-                if(circleTester.checkIfInsideCircle(parameters, x, y)) {
-
-                    if (obj.has("spc_common")) {
-                        String treeName = obj.getString("spc_common");
-                        if (!commonNames.containsKey(treeName)) {
-                            commonNames.put(treeName, 1);
-                        } else {
-                            commonNames.put(treeName, commonNames.get(treeName) + 1);
-                        }
-                    }
+                if (obj.has("spc_common")) {
+                    commonNames = addTreeNameToMap(obj, commonNames);
                 }
             }
         }
+        return commonNames;
+    }
+
+    private boolean checkIfInsideCircle(JSONObject obj, SearchParameters params){
+
+        if(obj.has("x_sp") && obj.has("y_sp")) {
+            double x = obj.getDouble("x_sp");
+            double y = obj.getDouble("y_sp");
+
+            return circleTester.checkIfInsideCircle(params, x, y);
+        }
+        return false;
+    }
+
+    private Map<String, Integer> addTreeNameToMap(JSONObject obj, Map<String, Integer> commonNames){
+
+        String treeName = obj.getString("spc_common");
+         if (!commonNames.containsKey(treeName)) {
+             commonNames.put(treeName, 1);
+         } else {
+             commonNames.put(treeName, commonNames.get(treeName) + 1);
+         }
         return commonNames;
     }
 }

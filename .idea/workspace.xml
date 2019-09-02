@@ -3,17 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d2746c29-ae05-4f93-ab57-0e21247b3864" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/controller/TreeSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/controller/TreeSearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/models/GridCoordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/models/GridCoordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/models/SearchParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/models/SearchParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/GridCoordinatesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/GridCoordinatesFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/TreeSearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/holidu/interview/assignment/service/TreeSearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/controller/TreeSearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/controller/TreeSearchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/models/GridCoordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/models/GridCoordinates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/models/SearchParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/models/SearchParameters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/CircleTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/CircleTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/GridCoordinatesFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/GridCoordinatesFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/CircleTesterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/CircleTesterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/TreeSearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/holidu/interview/assignment/service/TreeSearchService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/CircleTesterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/holidu/interview/assignment/service/CircleTesterTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeSearchServiceTest">
+  <component name="RunManager" selected="JUnit.CircleTesterTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.App" />
       <module name="interview.assignment" />
@@ -101,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleTesterTest.second_test_if_point_is_inside_circle_passes_if_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CircleTesterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview.assignment" />
       <extension name="coverage">
         <pattern>
@@ -111,44 +104,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
       <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.CircleTesterTest" />
-      <option name="METHOD_NAME" value="second_test_if_point_is_inside_circle_passes_if_false" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircleTesterTest.test_if_point_is_inside_circle_passes_if_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview.assignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.holidu.interview.assignment.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
-      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.CircleTesterTest" />
-      <option name="METHOD_NAME" value="test_if_point_is_inside_circle_passes_if_false" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeSearchServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview.assignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.holidu.interview.assignment.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
-      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.TreeSearchServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSearchServiceTest.count_occurrence_of_common_species_name_passes_if_results_match" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CircleTesterTest.test_if_point_is_inside_circle_lower_left_passes_if_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview.assignment" />
       <extension name="coverage">
         <pattern>
@@ -157,20 +118,51 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
-      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.TreeSearchServiceTest" />
-      <option name="METHOD_NAME" value="count_occurrence_of_common_species_name_passes_if_results_match" />
+      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.CircleTesterTest" />
+      <option name="METHOD_NAME" value="test_if_point_is_inside_circle_lower_left_passes_if_false" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleTesterTest.test_if_point_is_inside_circle_lower_right_passes_if_fasle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview.assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.holidu.interview.assignment.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
+      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.CircleTesterTest" />
+      <option name="METHOD_NAME" value="test_if_point_is_inside_circle_lower_right_passes_if_fasle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GridCoordinatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview.assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.holidu.interview.assignment.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.holidu.interview.assignment.service" />
+      <option name="MAIN_CLASS_NAME" value="com.holidu.interview.assignment.service.GridCoordinatesTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeSearchServiceTest" />
+        <item itemvalue="JUnit.CircleTesterTest" />
+        <item itemvalue="JUnit.CircleTesterTest.test_if_point_is_inside_circle_lower_right_passes_if_fasle" />
+        <item itemvalue="JUnit.CircleTesterTest.test_if_point_is_inside_circle_lower_left_passes_if_false" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.TreeSearchServiceTest.count_occurrence_of_common_species_name_passes_if_results_match" />
-        <item itemvalue="JUnit.CircleTesterTest.test_if_point_is_inside_circle_passes_if_false" />
-        <item itemvalue="JUnit.CircleTesterTest.second_test_if_point_is_inside_circle_passes_if_false" />
+        <item itemvalue="JUnit.GridCoordinatesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +204,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/holidu/interview/assignment/service/CircleTesterTest.java</url>
-          <line>16</line>
+          <line>17</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
